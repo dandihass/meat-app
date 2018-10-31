@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {FormGroup, FormBuilder} from '@angular/forms'
+import { FormGroup, FormBuilder } from '@angular/forms';
 
 import {Router} from '@angular/router'
 
@@ -35,7 +35,7 @@ export class OrderComponent implements OnInit {
       emailConfirmation: this.formBuilder.control(''),
       address: this.formBuilder.control(''),
       number: this.formBuilder.control(''),
-      optonalAddress: this.formBuilder.control(''),
+      optionalAddress: this.formBuilder.control(''),
       paymentOption: this.formBuilder.control('')
     })
   }
